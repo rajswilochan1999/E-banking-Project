@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    min-height: 100vh;
+    background-image: url(serv.jpg);
+    background-size: cover;
+
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mini-statement{
+    background: #f1f1f1;
+    flex: 1;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.header{
+    background:black;
+    color: #fff;
+    position: relative;
+    margin-bottom: 20px;
+    text-decoration-style: wavy;
+}
+.amount
+{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:40px 0;
+
+}
+.amount span{
+    font-size: 30px;
+}
+.title{
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    background: red;
+    transform: translate(-50%,50%);
+    width: 80%;
+    max-width: 360px;
+    text-align: center;
+    padding: 8px 0;
+}
+.last-transaction
+{
+    padding: 10px 20px;
+}
+.last-transaction li{
+    margin: 8px 0;
+    font-size: 15px;
+    color: #344;
+    text-align: center;
+}
+.border{
+    width: 80px;
+    height: 1px;
+    background: #ddd;
+    margin: auto;
+}
+.mini-statement a{
+    display: block;
+    widows: 50%;
+    background: rgb(240, 239, 225);
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 15px;
+    border: 1px solid;
+    max-width: 360px;
+    color: #ddd;
+}
+.m1 .header{
+    background:rgb(59, 220, 241);
+}
+.m2 .header{
+    background: #2c3e50;
+}
+.m3 .header{
+    background:#c0392b;
+}
+.m1 .title{
+    background-image: linear-gradient(1255deg,#3498db,#9b59b6);
+}
+.m2 .title{
+    background-image: linear-gradient(1255deg,#f13ecb,#6feba7);
+}
+.m3 .title{
+    background-image: linear-gradient(1255deg,#e7e429,#359bfc);
+}
+.m1 a{
+    color: #e91b1b;
+}
+.m2 a{
+    color: #1fec52;
+}
+.m3 a{
+    color:#c0392b;
+}
+.m1 a:hover{
+    color: rgb(24, 23, 22);
+    background: rgb(241, 115, 84);
+    border-radius: 8px;
+    
+}
+.m2 a:hover{
+    color: rgb(24, 23, 22);
+    background: rgb(241, 115, 84);
+    border-radius: 8px;
+}
+.m3 a:hover{
+    color: rgb(24, 23, 22);
+    background: rgb(241, 115, 84);
+    border-radius: 8px;
+}
+@media screen and (max-width:780px)
+{
+    .
+}
